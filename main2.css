@@ -1,0 +1,94 @@
+h3 {
+	color: black; 
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.row{
+    list-style-type: none;
+    margin: 20;
+    padding: 20;
+    overflow: hidden;
+	border: 2px solid white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #616161;
+}
+ 
+li {
+	text-align: center;
+	color: white;
+}
+
+li a {
+	float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #b6b6b6;
+}
+
+.button1 {
+    background-color: grey;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+	border: none;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 5px 5px;
+	border-radius: 12px;
+}
+
+.button2 {
+    background-color: grey;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+	border: none;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 5px 5px;
+	border-radius: 12px;
+}
+
+body {
+	background-image: url("http://i1224.photobucket.com/albums/ee361/celeee96/stockimageqoute_zpsrusgjmpo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+	background-color: white; 
+}
+
+th, td {
+    padding: 5px;
+	text-align:right;
+    border-bottom: 2px solid black;
+}
+
+#historyTableInfo {
+	height: 250px;
+	overflow-y: auto;
+	width: 75%;
+}
+
+#historyTableInfoTitle1{
+	width: 75%;
+}
+
+#historyTableInfoTitle2 {
+	width: 75%;
+}
